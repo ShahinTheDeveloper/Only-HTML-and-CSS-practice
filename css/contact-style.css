@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul li a {
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+ul li a:hover {
+    color: white;
+    background-color: darkorange;
+}
+
+ul li:nth-child(4) {
+    background-color: darkorange;
+}
+.form-item{
+    padding: 5px;
+
+}
+input{
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+textarea{
+    width: 100.5%;
+    height: 85px;
+    padding-left: 10px;
+}

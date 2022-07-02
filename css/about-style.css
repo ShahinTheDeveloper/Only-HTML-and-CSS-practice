@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul li a {
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+ul li a:hover {
+    color: white;
+    background-color: darkorange;
+}
+
+ul li:nth-child(2) {
+    background-color: darkorange;
+}
+.trainer {
+    margin: 1%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 22%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: darkblue;
+}
+.trainer img{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+    top: -60px;
+    padding-bottom: -20px;
+}
